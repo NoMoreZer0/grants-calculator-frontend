@@ -1,4 +1,4 @@
-# adi
+# grants calculator
 
 A new Flutter project.
 
