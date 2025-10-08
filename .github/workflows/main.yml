@@ -29,10 +29,6 @@ jobs:
         working-directory: ./
         run: flutter pub get
 
-      - name: Run build_runner
-        working-directory: ./
-        run: dart run build_runner build --delete-conflicting-outputs
-
       - name: Build Flutter Web
         working-directory: ./
         run: flutter build web
