@@ -31,7 +31,7 @@ jobs:
 
       - name: Build Flutter Web
         working-directory: ./
-        run: flutter build web
+        run: flutter build web --base-href /grants-calculator-frontend/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
