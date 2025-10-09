@@ -1,5 +1,5 @@
+import 'package:adi/grant_page.dart';
 import 'package:flutter/material.dart';
-import 'package:grant_success/grant_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -56,9 +56,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
-
-
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -68,7 +65,8 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return const Scaffold(
-      body: GrantApplicationPage()// This trailing comma makes auto-formatting nicer for build methods.
+      body:
+          GrantApplicationPage(), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
